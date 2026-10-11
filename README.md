@@ -48,3 +48,36 @@ The project provided practical experience collecting Windows endpoint events and
 ## Disclaimer
 
 All testing was conducted in a controlled home lab using systems under my control. This project is for educational and defensive cybersecurity purposes.
+
+
+## Investigation Reports
+
+The following reports document the objectives, procedures, findings and analyst assessments from each investigation.
+
+1. [Investigation 01 — Failed Windows Login](investigations/01-failed-windows-login.md)
+2. [Investigation 02 — Repeated Windows Login Failures](investigations/02-repeated-windows-login-failures.md)
+3. [Investigation 03 — Windows Process Creation Monitoring](investigations/03-windows-process-monitoring.md)
+
+## Evidence Gallery
+
+The screenshots below provide visual evidence of the lab setup and investigations.
+
+### Wazuh Overview
+
+![Wazuh overview dashboard](evidence/01-wazuh-overview.png)
+
+### Connected Windows Agent
+
+![Active Windows agent](evidence/02-active-windows-agent.png)
+
+### Investigation 01 — Failed Login
+
+![Wazuh failed-login alert](evidence/03-failed-login-alert.png)
+
+### Investigation 02 — Repeated Login Failures
+
+![Wazuh repeated-login alert](evidence/04-repeated-login-alert.png)
+
+### Investigation 03 — Process Monitoring
+
+![Windows process-creation event](evidence/05-process-creation-details.png)
